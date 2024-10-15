@@ -1,0 +1,19 @@
+CRUD EXPRESSJS WITH PRIMA :
+
+vendor utama:
+npm install express cors prisma
+npm install dotenv
+npm install --save-dev nodemon
+
+Prima Database mysql:
+npx prisma init --datasource-provider mysql
+=>ketika ada perubahan schema
+npx prisma generate
+=>migrate database
+npx prisma db push
+=>studio database prisma
+npx prisma studio
+
+=>.ENV Seeting :
+PORT=2000
+DATABASE_URL=mysql://root:Asdf1234@localhost:3306/express_crud
